@@ -1,0 +1,385 @@
+
+  body {
+    background-image:url("background_blue.jpg") ;
+	}
+#Form_login {
+    margin-top: 100px;
+	
+
+   
+}
+ /** wrapper **/
+div#wrapper {
+	margin:0px auto;
+	padding:0;
+}
+
+.width {
+	width:920px;
+	margin: 0 auto;
+}
+
+
+/** sitename **/
+div#sitename {
+	background: none repeat scroll 0 0 #232527;
+	/*background: linear-gradient(#111, #333);*/
+	border-bottom: 1px solid #0d416b;
+		/*background: rgba(0, 0, 0, 0) linear-gradient(#00aae7, #0d416b) repeat scroll 0 0;; border-top-right-radius: 0px; border-top-left-radius: 0px;*/
+		height:88px;
+		
+}
+
+div#sitename h1 {
+	letter-spacing:-3px;
+	margin:-11px 0 0 -205px;
+	color:#fff;
+	font-size: 2.5em;
+	float: left;
+	padding:4px 0 ;
+	
+	
+	height:106px;
+}
+div#sitename h1 a,
+div#sitename h1 a:hover {
+	color:#fff;
+	font-weight:bold;
+	text-shadow:0px 2px 2px #000;
+	text-decoration:none;
+}
+
+nav {
+	float: right;
+	margin-top: 35px;
+	margin-right:-91px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	padding: 0;
+}
+
+
+nav ul li a {
+    color: #fff;
+    display: block;
+    font-size: 0.95em;
+    letter-spacing: 0;
+	margin: -6px 3px 0;
+	font-weight: normal;
+    padding: 8px 15px 8px;
+    text-decoration: none;
+box-shadow:-1px 1px 0 transparent;
+}
+nav ul li.selected a,
+nav ul li.selected a:hover { 
+	color: #2368a0;
+	/*background: rgba(0, 0, 0, 0) linear-gradient(#00aae7, #0d416b) repeat scroll 0 0;*/
+	background:#fff;
+	font-weight:bold;
+
+	margin: -6px 2px 0;
+	box-shadow: -1px 1px 0 #fff;
+}
+
+
+nav ul li a:hover {
+	color: #2368a0;
+	text-decoration: none;
+}
+
+
+
+.logCredential {
+    color: #aaa;
+    font-size: 16px;
+    position: relative;
+}
+.logCredential input {
+    background: #fcfcfc none repeat scroll 0 0;
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+   
+    height: 32px;
+    width: 250px;
+}
+
+.logCredential input {
+    text-indent: 32px;
+}
+.logCredential .fa-envelope {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+.logCredential .fa-key {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+
+.login-form form input, .signup-form form input {
+ 
+    border: medium none;
+    border-radius: 9px;
+    color: #8c8c8c;
+    display: block;
+    font-family: "Merriweather",serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+}
+.login-form form span {
+    line-height: 25px;
+}
+.login-form form span input {
+    float: right;
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
+}
+.login-form form button {
+   
+    margin-top: 18px;
+	margin-left: -1px;
+    margin-right: 12px;
+
+}
+.forgotpwd-form p button {
+    background: #0d416b none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: black;
+    display: block;
+    font-family: "Merriweather",serif;
+    padding: 6px 25px;
+	text-align:right;
+}
+.login-form form button, .signup-form form button, .aboutUs p button {
+    background: #00aae7 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    
+	font-family: "Merriweather",serif;
+    padding: 5px 8px;
+	float:left;
+}
+
+.modal-content{
+ width:80%;
+margin-left:8%; 
+ border-radius:0;
+
+}
+.modal-body{
+background-color:white;
+
+ padding: 29px 29px 60px;
+}
+
+p1{
+float:right;
+margin-right: 117px;
+    margin-top: -30px
+	color:white;
+}
+
+
+.login-form form .cancel button {
+    background: #ef4048 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-family: "Merriweather",serif;
+    padding: -1px 27px;
+	float:left;
+}
+
+.header-search{
+	
+
+	padding: 20px 40px;
+	height: 80px;
+	color: black;
+	box-sizing: border-box;
+
+}
+
+.header-search .header-limiter {
+	max-width: 1200px;
+	text-align: right;
+	margin: 0 auto;
+}
+
+
+
+
+
+/* The header links */
+
+
+.header-search .header-qa{
+float:left;
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #2368a0;
+	font-size: 18px;
+	font-family: "Merriweather",serif;;
+	opacity: 0.9;
+	width:99%;
+	}
+	
+.header-search .header-qa nav a{	
+padding-right:16px;
+color: white;
+}
+
+.header-search .header-limiter nav a .fa-envelope {
+    left: 50px;
+    position: absolute;
+    top: 10px;
+	margin-left:50px;
+}
+@media all and (max-width: 600px) {
+
+	.modal-content{
+	width:100%;
+	margin-left:0;
+	}
+}
+@media all and (max-width: 600px) {
+
+	.login-form form button, .signup-form form button, .aboutUs p button {
+	 padding:5px 0px;
+	}
+}
+@media all and (max-width: 600px) {
+
+	.login-form form button{
+	 margin-left:0px;
+	}
+}
+
+
+
+
+/* Making the header responsive. */
+
+@media all and (max-width: 600px) {
+
+	.header-search {
+		padding: 15px;
+		position: relative;
+	}
+
+	.header-search .header-limiter h1 {
+		float:none;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-search .header-limiter nav {
+		text-align: center;
+		float: none;
+		margin: 0;
+	}
+
+	.header-search .header-limiter nav a {
+		font-size: 13px;
+	}
+
+	.header-search .header-limiter form {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+}
+nav {
+	float: right;
+	margin-right: -47px;
+    margin-top: 1px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	padding: 0;
+}
+
+
+nav ul li a {
+    color: #0d416b;
+    display: block;
+    font-size: 0.95em;
+    letter-spacing: 0;
+	margin: 8px 3px 0;
+	font-weight: normal;
+    padding: 8px 15px 8px;
+    text-decoration: none;
+box-shadow:-1px 1px 0 transparent;
+}
+nav ul li.selected a,
+nav ul li.selected a:hover { 
+	color: #fff;
+	background: rgba(0, 0, 0, 0) linear-gradient(#00aae7, #0d416b) repeat scroll 0 0;
+	font-weight:bold;
+
+	margin: 8px 2px 0;
+	box-shadow: -1px 1px 0 #fff;
+}
+
+
+nav ul li a:hover {
+	color: #2368a0;
+	text-decoration: none;
+}
+/** footer **/
+footer {
+	background: none repeat scroll 0 0 #232527;
+	/*background: rgba(0, 0, 0, 0) linear-gradient(#00aae7, #0d416b) repeat scroll 0 0;*/
+    border-top: 2px solid #fff;
+ margin-top: 170px;
+    padding: 30px 0;
+}
+
+footer p {
+	color:#fff;
+	margin-top:-7px;
+	font-size:14px;
+	width:50%;
+	/*font-weight:bold;*/
+}
+footer p.left { float:left; text-align:right; }
+footer p.right { float:right; text-align:justify; }
+footer p a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	/*border-bottom:1px solid #999;*/
+}
+footer p a:hover { color:#ef4048; border-bottom-color: #ef4048; }
+
